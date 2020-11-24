@@ -7,7 +7,6 @@ sections:
 - type: document
   path: path
   label: Label
-  match: "**/*"
 - type: heading
   label: Beans
 - type: directory
