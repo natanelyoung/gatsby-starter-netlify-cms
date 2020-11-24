@@ -3,7 +3,18 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: document
+  path: path
+  label: Label
+  match: "**/*"
+- type: heading
+  label: Beans
+- type: directory
+  path: ''
+  label: Coffee
+  create: documents
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
