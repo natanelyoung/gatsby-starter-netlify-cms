@@ -1,4 +1,37 @@
 ---
 label: yrmplate
 hide_body: true
-fields: []
+fields:
+- name: sdfsdfasfd
+  type: field_group_list
+  fields:
+  - name: asdfasdf
+    type: tag_list
+    default: []
+    label: asdfasdf
+  - name: sdfaasdf
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: sdfaasdf
+  config:
+    min: 100
+    max: 2000
+    labelField: sdfaasdf
+  label: sdfsdfasfd
+  description: asdfasdf
+- name: f23e2ad
+  type: number
+  label: f23e2ad
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  hidden: true
